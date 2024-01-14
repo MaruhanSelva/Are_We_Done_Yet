@@ -1,0 +1,50 @@
+.content_scroll {
+    list-style-type: none;
+    height: 30vh;
+    overflow: scroll;
+}
+
+.result_content {
+    display: flex;
+    align-items: center;
+}
+
+.result_info {
+    display: flex;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.result_name {
+    font-weight: bold;
+}
+
+.result_picture {
+    padding-top: 0;
+}
+
+.result_format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+
+.add_button {
+    border: none;
+    background-color: transparent;
+}
+
+.add_button img {
+    height: 40px;
+}
+
+.result_picture {
+    height: 160px;
+    width: 100px;
+}
+
+
+

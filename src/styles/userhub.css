@@ -1,0 +1,128 @@
+.greeting {
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+.WL_dash {
+    list-style: none;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh
+}
+
+.add_WatchLists {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2vw;
+    
+}
+
+.divider {
+    background-color: black;
+    width: 1px;
+    height: 30vh;
+    margin-top: 1vh;
+}
+
+.wl_summary {
+    border-radius: 20px 20px 20px 20px;
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+
+.wl_summary a {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wl_capacity {
+    margin-right: 3vw;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.wl_title {
+    margin-left: 3vw;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.hub_content {
+    margin-top: 2vh;
+    text-align: left;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.userhub {
+    font-family: Lato, sans-serif;
+}
+
+.hub_section_title {
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.text_center {
+    text-align: left;
+    margin-left: 10vw;
+}
+
+.HUB_header {
+    font-family: Lato, sans-serif;
+    background-color: #8DFFF8;
+    display: flex;
+    padding-left: 4vw;
+    margin-bottom: 3vh;
+}
+
+.HUB_header button {
+    font-family: Lato, sans-serif;
+    color: black;
+    background: none;
+    border: none;
+    font-size: 2vh;
+    height: 6vh;
+}
+
+.HUB_header button:hover {
+    color: white;
+}
+
+.add_wl {
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addForm label {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vh;
+    width: 100%;
+}
+
+.submit_button {
+    margin-top: 2vh;
+}
+
+
+
+
+
+

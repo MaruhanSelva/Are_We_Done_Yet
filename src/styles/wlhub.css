@@ -1,0 +1,77 @@
+.content_item {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 6vh;
+    align-items: center;
+    font-family: Lato, sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.content_name {
+    padding-left: 2vw;
+}
+
+.wl_list {
+    text-align: left;
+    font-size: 2vh;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+
+.content_status {
+    padding-right: 2vw;
+}
+
+.rectangle {
+    height: 3vh;
+    background-color: #8DFFF8;
+}
+
+li:nth-child(even) {
+    background-color: gray;
+}
+
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.wl_content {
+    display: flex;
+}
+
+.wl_functions {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    gap: 3vh;
+}
+
+.wl_func {
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    background-color: transparent;
+    border: none
+}
+
+.removeimage {
+    height: 2.5vh;
+}
+
+.removebutton {
+    background-color: transparent;
+    border: none;
+    padding-right: 1vw;
+}
+
+.content_align {
+    display: flex;
+}
+
+.watched_button {
+    margin-right: 0.4vw;
+}

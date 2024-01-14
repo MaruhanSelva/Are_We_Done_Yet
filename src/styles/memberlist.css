@@ -1,0 +1,20 @@
+.member_list {
+    list-style-type: none;
+}
+
+.member_item {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    font-family: Lato, sans-serif;
+}
+
+.crown_img {
+    height: 2vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+.member_name {
+    padding-left: 1vw;
+}

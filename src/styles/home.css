@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+}
+
+.hero_section {
+  background-color: white;
+  font-size: 5vh;
+  text-align: left;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  width: 80%;
+  height: 70vh;
+  display:flex;
+  align-items: center;
+  font-family: Lato, sans-serif;
+}
+
+.hero_section p {
+  width: 50%;
+}
+
+.hero_section img {
+  height: 70vh;
+  padding-left: 4vw;
+}
+
+.steps_sect {
+  background-color: #8DFFF8;
+  font-family: Lato, sans-serif;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  gap: 1vh
+}
+
+.b_title {
+  text-align: center;
+  font-size: 2vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+.b_content {
+  width: 20vw;
+  padding-left: 4vw;
+  padding-bottom: 3vh;
+  font-size: 2vh
+}
+
+.benefit_square {
+  background: white;
+  box-shadow: 0px 14px 7.2px 0px rgba(239, 124, 124, 0.25);
+  width: 28vw;
+  border-radius: 20px;
+}
+
+.sect_title {
+  font-family: Lato, sans-serif;
+  font-size: 4vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+  padding-top: 5vh;
+}
+
+.sect_blurb {
+  font-family: Lato;
+  font-size: 2.5vh;
+  width: 75vw;
+  padding-bottom: 3vh;
+}
+
+.benefit_square img {
+  width: 7vh;
+  height: 7vh;
+  padding-top: 2vh;
+}
+
+.benefit img {
+  width: 7vh;
+  height: 7vh;
+  padding-top: 2vh;
+}
+
+.benefits_sect {
+  height: 40vh;
+  width: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vh;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+}
+
+.join_section {
+  background-color: #8DFFF8;
+  padding-top: 5vh;
+  font-family: Lato, sans-serif;
+  font-size: 3vh;
+  font-weight: bold;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.join_section a {
+  background-color: white;
+  width: 30vw;
+  height: 6vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 14px 7.2px 0px rgba(239, 124, 124, 0.25);
+}
+
+@media only screen and (max-width: 375px) {
+
+  .benefits_sect {
+    grid-template-columns: 100%;
+    height: 65vh;
+  }
+
+  .steps {
+    grid-template-columns: 100%;
+  }
+
+  .benefit_square {
+    width: 80vw;
+  }
+
+  .b_content {
+    width: 65vw;
+    padding-left: 3vh;
+  }
+}
+
+@media only screen and (max-width: 1052px) {
+  .hero_section {
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato, sans-serif;
+    padding-bottom: 20vh;
+  }
+
+  .hero_section img {
+    height: 30vh;
+  }
+
+}
