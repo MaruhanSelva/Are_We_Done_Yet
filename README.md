@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Are We Done Yet?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Collaborative Platform for your friend group to create a watchlist and never run out of content again!
 
-## Available Scripts
+Link: https://are-we-done-yet.vercel.app/
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This web app was made using React.js, Firebase on the backend (database + user authentication) and WatchMode API to fetch content information. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/MaruhanSelva/Are_We_Done_Yet/assets/75972624/cefa387a-5471-4425-acb7-4fe81be4dd45)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This application allows users to create accounts and log in to them (and authenticates them using Firebase). It also allows users to create and join different WatchLists (or groups) that are locked behind a username and password so that only those you trust can join your WatchList.
 
-### `npm test`
+![image](https://github.com/MaruhanSelva/Are_We_Done_Yet/assets/75972624/ade3faf4-049c-4ebe-8e23-90ea7ad74353)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once users have created/joined a WatchList, they can view the associated group page. This is where users can add more members (or look at the user/password for the group). They'll also be able to look up content and add it to the WatchList. This content search is powered by the WatchMode API. 
 
-### `npm run build`
+![image](https://github.com/MaruhanSelva/Are_We_Done_Yet/assets/75972624/aa6b8918-6f9f-4e51-aee6-e16276827f87)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/MaruhanSelva/Are_We_Done_Yet/assets/75972624/28f95791-106b-4e1b-b26a-12bed636777d)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here they can indicate which shows they've watched and once everyone in the group has watched the piece of content (either a show or movie), you'll be able to better plan a discussion without accidentally spoiling things to each other.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What I learned?
+Through this project, I learned a lot of things related to making a full-stack application. Specifically:
+* Using Firebase (and its associated products)
+* Using a NoSQL database
+* Using a REST API to do lookups (and rendering that content)
+* Doing Fetch Requests
+* Learning how to use Figma to design web interfaces
+* Getting more comfortable with React.js
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Improvements
+* Add the ability to plan discussions from within the group page (Google Calendar integration possibly)
+* Be able to look up YouTube videos and add those to your WatchList
+* Make it so that when everyone has finished content, an email will be sent to notify you!
